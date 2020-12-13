@@ -1,0 +1,25 @@
+{
+  "dependencies": [
+    {
+      "name": "asobo-aircraft-flightdesignct",
+      "package_version": "0.1.43"
+    },
+    {
+      "name": "fs-base-propdefs",
+      "package_version": "0.1.2"
+    }
+  ],
+  "content_type": "AIRCRAFT",
+  "title": "Flight Design Electro",
+  "manufacturer": "Flight Design",
+  "creator": "Aaron",
+  "package_version": "0.1.43",
+  "minimum_game_version": "0.0.1-alpha",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  },
+  "total_package_size": "00000000000482312727"
+}
