@@ -9,6 +9,8 @@ Sources:
 - C: https://www.pipistrel-aircraft.com/aircraft/electric-flight/velis-electro-easa-tc/#tab-id-2
 - D: https://www.pipistrel-aircraft.com/aircraft/electric-flight/e-811/#tab-id-2
 - E: https://www.pipistrel-aircraft.com/aircraft/electric-flight/batteries-systems-and-bms/
+- F: https://www.flyrotax.com/produkte/detail/rotax-912-ul-a-f.html
+- G: http://www.aero-hesbaye.be/ROTAX/912UL.html
 
 ## Implementation
 
