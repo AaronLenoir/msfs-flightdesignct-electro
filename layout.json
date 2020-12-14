@@ -4,6 +4,11 @@
       "path": "SimObjects/Airplanes/Asobo_FlightDesignCT/flight_model.cfg",
       "size": 15890,
       "date": 132491528650000000
+    },
+	{
+      "path": "SimObjects/Airplanes/Asobo_FlightDesignCT/engines.cfg",
+      "size": 10923,
+      "date": 132491528650000000
     }
   ]
 }

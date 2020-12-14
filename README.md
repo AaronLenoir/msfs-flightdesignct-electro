@@ -36,3 +36,17 @@ So:
 So, to stay withing Ultralight limitations, we can allow 1 POB and that POB has to weigh less than 63.8 kg.
 
 Moved Empty CG 0.75 feet more AFT. Need to verify if this is actually possible with battery placement...
+
+### Fuel
+
+We don't lose any weight when consuming energy from the batteries. To simulate this, we equate a tiny amount of fuel to 100% battery charge and modify the fuel consumption accordingly.
+
+This way MSFS shows correct battery % while not losing weight (except a tiny amount) as we consume energy.
+
+Velis Electro, at 35 kW has an endurance of 50 minutes + VFR reserve. So let's take 60 minutes.
+
+Used fuel flow scalar to rescale fuel flow so that at 35 kW engine input, we get about 1 hour of autonomy.
+
+Note, the fuel tanks are now 0.01 lbs, with 100% usable fuel.
+
+Still need to customise the engine efficiency to match more closely the electric engine, at the moment it is still the Rotax 912 ULS.
