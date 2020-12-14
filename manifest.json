@@ -13,8 +13,8 @@
   "title": "Flight Design Electro",
   "manufacturer": "Flight Design",
   "creator": "Aaron",
-  "package_version": "0.1.43",
-  "minimum_game_version": "0.0.1-alpha",
+  "package_version": "0.0.1-alpha",
+  "minimum_game_version": "1.10.4",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
