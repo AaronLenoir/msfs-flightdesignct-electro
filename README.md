@@ -25,13 +25,14 @@ For the electric version, batteries are included in the empty weight, at least s
 So:
 
 - Original empty weight: 268 kg (590 lbs)
-- Engine (Rotax 912 ULS) weight: 56.6 kg (124.8 lbs)
-- Empty weight without engine: 211.4 kg (466 lbs)
-- Weight available for E-811, Controller and batteries: 238.6 kg (526 lbs)
-- Weight E-811: 22.7 kg (50 lbs)
-- Weight controller: 8.1 kg (17.8 lbs)
-- Weight batteries: 2 x 72 kg = 144 kg (317.5 lbs)
-- Total weight drive-train + batteries: 174.8 kg (385.4 lbs)
-- Weight left for payload: 238.6 kg - 174.8 kg = 63.8 kg (140.7 lbs)
-  -> That is 1 light pilot, but we'll stick with this for now.
+  - Minus Rotax 912 ULS: 268 - 56.6 = 211.4 kg
+  - Plus E-811: 211.4 kg + 22.7 kg = 234.1 kg
+  - Plus Controller: 234.1 kg + 8.1 kg = 242.2 kg
+  - Plus batteries: 242.2 kg + (2 x 72 kg) = 386.2 kg
+- New empty weight: 386.2 kg (851.43 lbs)
+- Maximum Take-off Weight: 450 kg
+- Maximum payload (incl. pilot): 450 kg - 386.2 kg = 63.8 kg (140.7 lbs)
 
+So, to stay withing Ultralight limitations, we can allow 1 POB and that POB has to weigh less than 63.8 kg.
+
+Moved Empty CG 0.75 feet more AFT. Need to verify if this is actually possible with battery placement...
