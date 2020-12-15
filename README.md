@@ -40,6 +40,8 @@ So, to stay withing Ultralight limitations, we can allow 1 POB and that POB has 
 
 Moved Empty CG 0.75 feet more AFT. Need to verify if this is actually possible with battery placement...
 
+Positioned the single POB to the middle, to avoid imbalance. The 3D model has not been modified in any way ... 
+
 ### Fuel
 
 We don't lose any weight when consuming energy from the batteries. To simulate this, we equate a tiny amount of fuel to 100% battery charge and modify the fuel consumption accordingly.
