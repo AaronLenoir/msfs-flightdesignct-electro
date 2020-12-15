@@ -11,6 +11,7 @@ Sources:
 - E: https://www.pipistrel-aircraft.com/aircraft/electric-flight/batteries-systems-and-bms/
 - F: https://www.flyrotax.com/produkte/detail/rotax-912-ul-a-f.html
 - G: http://www.aero-hesbaye.be/ROTAX/912UL.html
+- H: https://www.pipistrel-aircraft.com/aircraft/other-products/propellers/
 
 ## Implementation
 
