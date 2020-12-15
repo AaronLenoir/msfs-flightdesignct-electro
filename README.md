@@ -53,3 +53,9 @@ Used fuel flow scalar to rescale fuel flow so that at 35 kW engine input, we get
 Note, the fuel tanks are now 0.01 lbs, with 100% usable fuel.
 
 Still need to customise the engine efficiency to match more closely the electric engine, at the moment it is still the Rotax 912 ULS.
+
+### Engine
+
+Trying to change the piston engine to have somewhat properties like the E-811.
+
+First change: increased "speed at which the shaft torque reaches its target value".
