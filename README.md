@@ -12,18 +12,19 @@ Sources:
 - F: https://www.flyrotax.com/produkte/detail/rotax-912-ul-a-f.html
 - G: http://www.aero-hesbaye.be/ROTAX/912UL.html
 - H: https://www.pipistrel-aircraft.com/aircraft/other-products/propellers/
+- I: http://www.bulmf.be/index.php/nl/ulm-vliegen-resp/regelgeving/239-koninklijk-besluit-25-mei-1999
 
 ## Implementation
 
 ### Weight
 
-Working within the ultralight limitation for ultralights without parachute: 
+Working within the ultralight limitation for 2-seat ultralights with parachute: 
 
-- Maximum Take-off Weight: 450 kg, 992 lbs
+- Maximum Take-off Weight: 472.5 kg, 1041.68 lbs
 
 The original CTSL has an empty weight of 268 kg (590 lbs), including the engine but excluding the fuel.
 
-For the electric version, batteries are included in the empty weight, at least such is the case with the Velis Electro (which is NOT an ultralight).
+For the electric version, batteries are included in the empty weight, at least such is the case with the Velis Electro.
 
 So:
 
@@ -33,10 +34,12 @@ So:
   - Plus Controller: 234.1 kg + 8.1 kg = 242.2 kg
   - Plus batteries: 242.2 kg + (2 x 72 kg) = 386.2 kg
 - New empty weight: 386.2 kg (851.43 lbs)
-- Maximum Take-off Weight: 450 kg
-- Maximum payload (incl. pilot): 450 kg - 386.2 kg = 63.8 kg (140.7 lbs)
+- Maximum Take-off Weight: 472.5 kg
+- Maximum payload (incl. pilot): 472.5 kg - 386.2 kg = 86.3 kg (190.25 lbs)
 
-So, to stay withing Ultralight limitations, we can allow 1 POB and that POB has to weigh less than 63.8 kg.
+Sadly, this doesn't seem to be enough to accomodate two pilots. This would put us in the one-seat ultralight with parachute, but that gives a maximum take-off weight 315 kg which is less than the empty weight.
+
+To be good, I would like 70 kg extra payload room. But that doesn't seem possible here, unless we throw out one complete battery pack. For now, we'll stick with the 2-seater ultralight. But we are technically too heavy.
 
 Moved Empty CG 0.75 feet more AFT. Need to verify if this is actually possible with battery placement...
 
@@ -54,10 +57,8 @@ Used fuel flow scalar to rescale fuel flow so that at 35 kW engine input, we get
 
 Note, the fuel tanks are now 0.01 lbs, with 100% usable fuel.
 
-Still need to customise the engine efficiency to match more closely the electric engine, at the moment it is still the Rotax 912 ULS.
-
 ### Engine
 
-Trying to change the piston engine to have somewhat properties like the E-811.
+Trying to change the piston engine to have somewhat properties like the E-811, with a constant torque curve preferably.
 
-First change: increased "speed at which the shaft torque reaches its target value".
+Not finished yet, but mostly this means giving the piston engine unrealistic efficiency.
