@@ -9,6 +9,16 @@
       "path": "SimObjects/Airplanes/Asobo_FlightDesignCT/engines.cfg",
       "size": 10923,
       "date": 132491528650000000
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_FlightDesignCT/sound/Asobo_FlightDesignCT.PC.PCK",
+      "size": 84169236,
+      "date": 132404240790000000
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_FlightDesignCT/sound/sound.xml",
+      "size": 19306,
+      "date": 132436198020000000
     }
   ]
 }

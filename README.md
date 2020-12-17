@@ -34,7 +34,7 @@ So:
   - Plus Controller: 234.1 kg + 8.1 kg = 242.2 kg
   - Plus batteries: 242.2 kg + (2 x 72 kg) = 386.2 kg
 - New empty weight: 386.2 kg (851.43 lbs)
-- Maximum Take-off Weight: 472.5 kg
+- Maximum Take-off Weight: 472.5 kg (1041.68 lbs)
 - Maximum payload (incl. pilot): 472.5 kg - 386.2 kg = 86.3 kg (190.25 lbs)
 
 Sadly, this doesn't seem to be enough to accomodate two pilots. This would put us in the one-seat ultralight with parachute, but that gives a maximum take-off weight 315 kg which is less than the empty weight.
