@@ -2,7 +2,9 @@ The goal of this project to replace the piston engine in the Flight Design CTLS 
 
 # Implementation
 
-## Empty Weight
+## Weight Modifications
+
+### Empty Weight
 
 Original CTSL:
 
@@ -27,7 +29,7 @@ Details:
 | Add Batteries (72 kg x 2)  | + 144.0      |
 | **New empty weight**       | **386.2**    |
 
-## Empty Center of Gravity (CG)
+### Empty Center of Gravity (CG)
 
 The original aircraft has a CG between 22% and 38%.
 
@@ -40,13 +42,13 @@ Moving the CG position 0.8 ft more AFT solves this:
 
 Though not verified in terms of dimensions of the batteries and the airframe, I am going to assume this can be configured based on the positioning of the batteries and even the controller.
 
-## Maximum Take-off Weight
+### Maximum Take-off Weight
 
 An 2-seater ultralight, without a parachute, must have a maximum take-off weight of 450 kg (992 lbs).
 
 Given the empty weight of 386.2 kg, we have a maximum payload (including the pilot!) of 63.8 kg (140.6 lbs).
 
-## Weight Summary
+### Weight Summary
 
 |              |                            |
 | -------------|----------------------------|
